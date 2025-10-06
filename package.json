@@ -1,0 +1,14 @@
+{
+  "name": "pitrust-infrastructure-protocol",
+  "version": "0.1.0",
+  "description": "Minimal placeholder to enable CodeQL analysis for PiTrust Infrastructure Protocol.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js pioneer-demo",
+    "test": "node -e \"console.log('OK')\""
+  },
+  "keywords": ["pitrust", "pi network", "protocol", "sdk"],
+  "author": "EL MADANI EL MKHITAR",
+  "license": "MIT"
+}

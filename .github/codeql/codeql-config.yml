@@ -1,0 +1,10 @@
+paths:
+  - src
+
+paths-ignore:
+  - node_modules
+  - dist
+  - coverage
+
+queries:
+  - uses: security-extended

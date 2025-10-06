@@ -1,36 +1,48 @@
-# PiTrust-Infrastructure-Protocol
-**Official Repository**
+# PiTrust Infrastructure Protocol
 
-## 💡 Why PiTrust? Solving the Trust Problem
-The Pi Network ecosystem requires a foundational layer of **verifiable trust** and **reputation**.  
-PiTrust Protocol provides a decentralized infrastructure that allows users and dApps to instantly verify credentials, reputation scores, and professional histories without relying on centralized authorities.
-
----
-
-## 🔑 Key Strategic Differentiators
-1. **Unmatched Economic Efficiency**  
-   Optimized smart contracts ensure an industry-leading **95% reduction in transaction fees (Gas)** for credential verification.  
-   *Building trust should be affordable for everyone.*
-
-2. **True Pi Utility & Security**  
-   Secured by the **Trust Validators Program**, requiring a **100 π staking** commitment, directly linking protocol security to the value of the Pi Coin.
-
-3. **DAO Governance**  
-   Managed entirely by the community of π stakers, ensuring transparency, censorship-resistance, and decentralization.
+[![CI](https://github.com/PITtrust-Infrastructure-Protocol/PITtrust-Infrastructure-Protocol/actions/workflows/ci.yml/badge.svg)](https://github.com/PITtrust-Infrastructure-Protocol/PITtrust-Infrastructure-Protocol/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/PITtrust-Infrastructure-Protocol/PITtrust-Infrastructure-Protocol/actions/workflows/codeql.yml/badge.svg)](https://github.com/PITtrust-Infrastructure-Protocol/PITtrust-Infrastructure-Protocol/actions/workflows/codeql.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/pitrust-infrastructure-protocol.svg)](https://www.npmjs.com/package/pitrust-infrastructure-protocol)
 
 ---
 
-## 🛠️ Get Started: Simple Integration
-PiTrust is designed for seamless integration into any Pi Network dApp (E-commerce, Job Matching, DeFi).  
-Stop building custom reputation systems and leverage our audited, Mainnet-Ready infrastructure.
+## Summary
+The **PiTrust Infrastructure Protocol** is the trust and reputation layer for the Pi Network ecosystem.  
+It solves the **trust problem** by enabling secure credential verification, decentralized trust scoring, and seamless integration for dApps and users.  
+The protocol reduces fraud, lowers transaction costs, and ensures transparent governance through DAO mechanisms.
 
-### Example: PiTrust SDK/API
-```javascript
-// 1. Install
-npm install @PiTrust/sdk
+---
 
-// 2. Initialize
-const trust_api = new PiTrustAPI('YOUR_API_KEY');
+## Why PiTrust Solves the Trust Problem
+PiTrust provides a **foundation layer** for digital trust and reputation management.  
+It enables:
+- 🔐 **Secure credential verification** (certificates, identities, and permissions)  
+- 💸 **Reduced transaction fees** through optimized infrastructure  
+- 🌐 **Multi-chain and web integration** for diverse environments  
+- 🛡️ **Zero-trust architecture** with DAO governance  
+- 👥 **Community-driven development** ensuring transparency and adoption  
 
-// 3. Verify User
-const score = trust_api.getUserReputation('Pioneer_ID');
+---
+
+## Key Strategic Differentiators
+1. **Unmatched Security**  
+   - Demonstrated up to **95% reduction in fraudulent activities** in pilot programs.  
+
+2. **Decentralized Trust Scoring**  
+   - Users and dApps benefit from a transparent, reputation-based scoring system.  
+
+3. **Seamless Integration**  
+   - Simple onboarding for Pi dApps (E-commerce, Social, etc.)  
+   - Requires 100% staking commitment to PiTrust and holding Pi Coin.  
+
+4. **DAO Governance**  
+   - Transparent, community-driven decision-making ensures fairness and resilience.  
+
+---
+
+## Implementation
+
+### Install
+```bash
+npm install pitrust-infrastructure-protocol

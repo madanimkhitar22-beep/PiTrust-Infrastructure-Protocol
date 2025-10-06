@@ -20,7 +20,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'javascript' ]  # You can change this to 'typescript', 'python', etc.
+        language: [ 'javascript' ]  # Change to 'python', 'typescript', etc. if needed
 
     steps:
     - name: Checkout repository
@@ -31,7 +31,7 @@ jobs:
       with:
         languages: ${{ matrix.language }}
         queries: security-and-quality
-        paths: .  # This tells CodeQL to scan the entire repo
+        paths: .  # Ensures CodeQL scans all files in the repo
 
     - name: Autobuild
       uses: github/codeql-action/autobuild@v2

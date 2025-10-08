@@ -46,3 +46,13 @@ It enables:
 ### Install
 ```bash
 npm install pitrust-infrastructure-protocol
+
+> ⚠️ Important Note:
+This repository represents the official development of the PiTrust Protocol, currently maintained by its founder. While the project is in its early stages, certain contact details (such as email, domain, and community links) displayed in external previews may be placeholders or pending activation.
+
+All verified updates, documentation, and contributions are managed through this GitHub repository:  
+**https://github.com/madaminkhitar22-beep/PiTrust-Infrastructure-Protocol**
+
+Any future changes to official contact channels (e.g. `pitrust.network`, Discord, or team email) will be announced here and reflected in the documentation once activated.
+
+This clarification ensures transparency during the review process and avoids confusion with unverified external references.

@@ -1,43 +1,49 @@
-# PiTrust Infrastructure Protocol — Roadmap
+# PiTrust Protocol Roadmap
 
-This roadmap outlines the strategic development phases of the PiTrust Infrastructure Protocol, with emphasis on transparency, security, and alignment with the Pi Network ecosystem. All milestones are subject to review and refinement based on feedback from the Pi Core Team and community contributors.
-
----
-
-## 🔹 Q4 2025 — Foundation & Review
-- Finalize DAO governance module (internal logic, voting structure, contributor roles)
-- Launch CodeQL-based security analysis and manual audit preparation
-- Submit documentation and architecture overview for Pi Core Team review
-- Prepare funding pitch deck and outreach strategy for international partners
+This roadmap outlines the strategic development phases of the PiTrust Infrastructure Protocol, aligned with Pi Network’s values of decentralization, trust, and global scalability.
 
 ---
 
-## 🔹 Q1 2026 — Integration & Deployment
-- Deploy trust scoring engine on Pi testnet
-- Integrate with Pi Browser for native dApp onboarding
-- Launch contributor onboarding campaign with clear guidelines and incentives
-- Begin legal audit and compliance review (open-source licensing, data protection)
+## ✅ Phase 1: Foundation (Completed)
+- Repository setup and initial documentation
+- License and contribution guidelines
+- CodeQL security integration
+- CI/CD pipeline configuration
 
 ---
 
-## 🔹 Q2 2026 — Expansion & Ecosystem Growth
-- Enable multi-chain compatibility (EVM-based chains)
-- Release PiTrust SDK for third-party dApps (e-commerce, finance, social)
-- Publish whitepaper and academic citation package
-- Initiate community-driven governance round (DAO voting, proposals)
+## 🔄 Phase 2: Core Development (In Progress)
+- Credential verification module (certificates, identities, permissions)
+- Reputation scoring engine with transparent metrics
+- DAO governance logic and smart contract design
+- Integration of zero-trust architecture principles
 
 ---
 
-## 🔹 Q3 2026 — Public Launch & Scaling
-- Mainnet deployment of PiTrust Protocol
-- Launch public dashboard for trust scoring and credential verification
-- Establish strategic partnerships with Pi ecosystem projects
-- Begin internationalization (Arabic, English, French interfaces)
+## 🧪 Phase 3: Integration & Testing (Planned Q4 2025)
+- Pi dApp onboarding toolkit (E-commerce, Social, etc.)
+- Multi-chain compatibility testing (Pi Network, Ethereum, etc.)
+- Community feedback loop and bug bounty preparation
 
 ---
 
-## 🛡️ Governance & Review Notes
-All modules and releases will be subject to:
-- Security validation via CodeQL and manual review
-- Legal compliance checks (MIT, CC-BY, DAO governance)
-- Feedback loops with Pi Core Team and verified contributors
+## 🚀 Phase 4: Public Launch & Review (Planned Q1 2026)
+- Formal review by Pi Core Team
+- Activation of official domains and support channels
+- GitHub Sponsors and crypto wallet integration
+- Print-ready documentation for funders and partners
+
+---
+
+## 🌍 Long-Term Vision
+PiTrust aims to become the universal trust and reputation layer for decentralized ecosystems, starting with Pi Network and expanding globally.  
+Our mission is to empower secure, transparent, and community-driven digital interactions.
+
+---
+
+## 📎 Related Documents
+- [README.md](./README.md)
+- [SECURITY.md](./SECURITY.md)
+- [FUNDING.md](./FUNDING.md)
+- [TEAM.md](./TEAM.md)
+- [USE-CASES.md](./USE-CASES.md)

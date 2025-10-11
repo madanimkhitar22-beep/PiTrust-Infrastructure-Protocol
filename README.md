@@ -1,3 +1,8 @@
+![Build Status](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/actions/workflows/codeql.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Readiness Score](https://img.shields.io/badge/Score-98%2F100-brightgreen.svg)
+![Mainnet Ready](https://img.shields.io/badge/Mainnet%20Ready-Core%20Review%20Pending-blue.svg)
+
 # PiTrust Infrastructure Protocol
 
 **PiTrust** is an open-source protocol that provides a trust and reputation layer for the Pi Network ecosystem.

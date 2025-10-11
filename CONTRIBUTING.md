@@ -1,23 +1,16 @@
-# Contributing to PiTrust Protocol
+# Contributing to PiTrust
 
-We are excited that you want to contribute to **PiTrust Protocol**!  
-This document explains how to contribute in a secure, professional, and efficient way.
+Thank you for your interest in contributing.
 
----
+## How to contribute
+- Fork the repository and create a topic branch.
+- Run tests locally: `npm ci && npm test`
+- Open a pull request with a clear description and tests for new features.
 
-## Code of Conduct
-- Be respectful and constructive.  
-- No harassment, discrimination, or personal attacks.  
-- Security issues must be reported privately (see SECURITY.md).  
+## Coding standards
+- Use ES2022+ (Node 18+)
+- Add unit tests for all public functions
+- Keep changes backward compatible where possible
 
----
-
-## Getting Started
-1. Fork the repository.  
-2. Clone your fork:  
-   ```bash
-   git clone https://github.com/<your-username>/PiTrust.git
-   cd PiTrust
-
-npm install
-npm test
+## Code review
+- All PRs must pass CI (tests + CodeQL) before merge.

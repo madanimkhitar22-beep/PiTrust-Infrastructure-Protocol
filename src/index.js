@@ -1,17 +1,17 @@
-/*
- * PiTrust Infrastructure Protocol — Placeholder source file
- * ---------------------------------------------------------
- * This file exists to allow CodeQL to detect JavaScript code for analysis.
- * Future commits will include the actual implementation of PiTrust SDK/API.
- */
+import { initTrustProtocol } from "./core/trust-core.js";
+import { connectDAO } from "./governance/dao.js";
+import { verifyIdentity } from "./modules/identity.js";
 
-export function verifyReputation(pioneerId) {
-  console.log(`Verifying reputation for Pioneer: ${pioneerId}`);
-  return { pioneerId, reputationScore: 100 };
+async function main() {
+  console.log("🚀 Initializing PiTrust Infrastructure Protocol...");
+
+  await verifyIdentity();
+  await connectDAO();
+  await initTrustProtocol();
+
+  console.log("✅ PiTrust Protocol successfully initialized.");
 }
 
-// Optional: run directly
-if (import.meta && import.meta.url && process.argv[1]) {
-  const id = process.argv[2] || "pioneer-demo";
-  verifyReputation(id);
-}
+main().catch((err) => {
+  console.error("❌ Initialization failed:", err);
+});

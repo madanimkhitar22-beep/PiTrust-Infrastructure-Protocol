@@ -38,4 +38,11 @@ integrity and ethical standards.
 **Official Repository:**  
 [PiTrust Infrastructure Protocol](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol)  
 
-**Contact:** team@pitrust.network
+Contact: madanimkhitar22@gmail.com
+
+# NOTICE
+
+This repository represents an independent development initiative for the Pi Network ecosystem.
+Any future changes to official Pi infrastructure will be announced via Pi Core Team channels.
+
+This project is provided "as-is" for review and development purposes. Use and deployment are subject to Pi Core Team approval and governance policies.

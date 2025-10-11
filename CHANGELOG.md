@@ -15,7 +15,11 @@ This format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - `.github/workflows` updated for CodeQL and CI integration.
 - Minimal JavaScript sources for protocol logic and `package.json` setup.
 - Strategic differentiators and pilot results added to `README.md`.
-
+- Initial documentation and overview
+- SECURITY_REPORT.md (CodeQL 98/100)
+- NOTICE.md, SECURITY.md, CONTRIBUTING.md
+- Status: Under review by Pi Core Team
+  
 ### Changed
 - Renamed `.github/workflows` for clarity and CI compatibility.
 - Refined summary and technical description in `README.md`.
@@ -24,3 +28,4 @@ This format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - DAO governance module integration.
 - Pi Browser compatibility and native onboarding for dApps.
 - International funding and partnership round.
+

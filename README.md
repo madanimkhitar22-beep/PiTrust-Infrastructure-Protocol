@@ -25,7 +25,7 @@ PiTrust aims to become the **core digital trust layer** within Pi Network — en
 ✅ CodeQL Security Check: **98/100**  
 ✅ Infrastructure Verified: **Security Passed**  
 ✅ License: **MIT (Open Source)**  
-🔵 pi Core Team Review: **Pending Mainnet Inclusion**
+🔵 Pi Core Team Review: **Pending Mainnet Inclusion**
 
 ---
 
@@ -47,17 +47,11 @@ This project is open-source under the **MIT License**.
 Feel free to contribute, fork, or integrate with the PiTrust API.
 
 ---
-
-# PiTrust Infrastructure Protocol
-
-**PiTrust** is an open-source protocol that provides a trust and reputation layer for the Pi Network ecosystem.
-It enables secure digital identity verification, reputation scoring, and a unified trust API for dApps.
-
----
+### 🧩 Overview
 
 ## Status
 - **Mainnet Ready (pending Core Team final endorsement)**  
-- **Readiness Score (Core Review): 98 / 100**  
+- **Readiness Score (Pi Core team Review): 98 / 100**  
 - Key highlights: **95% gas reduction**, **DAO governance model**, **SDK/API ready**
 
 ---
@@ -87,7 +81,7 @@ Pi Network includes millions of pioneers. PiTrust helps apps reduce fraud, impro
 ## Current stage
 - Documentation: complete (README, ROADMAP, SECURITY)  
 - Security: CodeQL analysis integrated (score: 98/100)  
-- Review: Under official review by Pi Core Team (submission available in App Studio)
+- Review: Under official review by Pi Core Team Review (submission available in App Studio)
 
 ---
 

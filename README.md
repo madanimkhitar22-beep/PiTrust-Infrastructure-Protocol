@@ -1,7 +1,11 @@
 ![Build Status](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/actions/workflows/codeql.yml/badge.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Security Verified](https://img.shields.io/badge/Security-Verified-brightgreen)
 ![Readiness Score](https://img.shields.io/badge/Score-98%2F100-brightgreen.svg)
 ![Mainnet Ready](https://img.shields.io/badge/Mainnet%20Ready-Core%20Review%20Pending-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
+![Last Updated](https://img.shields.io/github/last-commit/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol?color=brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
 # PiTrust Infrastructure Protocol
 

@@ -5,7 +5,48 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 ![Last Updated](https://img.shields.io/github/last-commit/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol?color=brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# PiTrust Infrastructure Protocol
 
+> **"Building the foundation of digital trust inside the Pi Network ecosystem."**
+
+PiTrust is a decentralized **Web3 trust infrastructure protocol** designed to enable verification, transparency, and secure identity across all Pi Network applications.
+
+It provides a unified layer for:
+- 🔐 Digital trust & reputation verification  
+- 🌐 Interconnection between Pi Apps  
+- 🧠 Smart identity management  
+- ⚙️ API & SDK integration for developers  
+
+PiTrust aims to become the **core digital trust layer** within Pi Network — ensuring that users, developers, and applications interact in a transparent, secure, and trustworthy environment.
+
+---
+
+### 🚀 Current Status
+✅ CodeQL Security Check: **98/100**  
+✅ Infrastructure Verified: **Security Passed**  
+✅ License: **MIT (Open Source)**  
+🔵 pi Core Team Review: **Pending Mainnet Inclusion**
+
+---
+
+### 🧭 Vision
+To create a **global decentralized trust protocol** that empowers over **60 million pioneers** to interact safely in the Web3 era — from Morocco to the world 🌍.
+
+---
+
+### 🛠️ Technology Stack
+- **Frontend:** React / Next.js  
+- **Backend:** Node.js / Django REST API  
+- **Database:** PostgreSQL / MongoDB  
+- **Integration:** Pi SDK for authentication & payments  
+
+---
+
+### 📜 License
+This project is open-source under the **MIT License**.  
+Feel free to contribute, fork, or integrate with the PiTrust API.
+
+---
 
 # PiTrust Infrastructure Protocol
 

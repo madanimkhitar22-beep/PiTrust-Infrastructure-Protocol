@@ -1,0 +1,114 @@
+openapi: 3.0.0
+info:
+  title: PiTrust API
+  description: Official API specification for trust verification, reputation scoring, and identity signals within the Pi Network ecosystem.
+  version: 1.0.0
+  contact:
+    name: EL MKHITAR EL MADANI
+    email: madanimkhitar22@gmail.com
+    url: https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol
+servers:
+  - url: https://api.pitrust.org
+    description: Main production server
+  - url: https://sandbox.pitrust.org
+    description: Testing and development server
+
+paths:
+  /verify:
+    get:
+      summary: Verify user identity
+      description: Returns verification status based on KYC and behavioral signals.
+      parameters:
+        - name: user_id
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Verification result
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  verified:
+                    type: boolean
+                  method:
+                    type: string
+                  timestamp:
+                    type: string
+                    format: date-time
+
+  /reputation:
+    get:
+      summary: Get user reputation score
+      description: Computes and returns a trust score based on user activity and contributions.
+      parameters:
+        - name: user_id
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Reputation score
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  score:
+                    type: integer
+                    minimum: 0
+                    maximum: 100
+                  level:
+                    type: string
+                  updated_at:
+                    type: string
+                    format: date-time
+
+  /trust-vector:
+    get:
+      summary: Get full trust vector
+      description: Returns detailed trust metrics including identity, reputation, and DAO participation.
+      parameters:
+        - name: user_id
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Trust vector data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  identity_verified:
+                    type: boolean
+                  reputation_score:
+                    type: integer
+                  dao_member:
+                    type: boolean
+                  trust_level:
+                    type: string
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+
+security:
+  - ApiKeyAuth: []
+
+tags:
+  - name: Verification
+    description: Identity and KYC verification endpoints
+  - name: Reputation
+    description: Trust and reputation scoring
+  - name: Trust Vector
+    description: Combined trust metrics for PiTrust applications

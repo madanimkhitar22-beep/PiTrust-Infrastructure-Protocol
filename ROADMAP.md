@@ -1,49 +1,55 @@
-# PiTrust Protocol Roadmap
+# 🗺️ ROADMAP.md
 
-This roadmap outlines the strategic development phases of the PiTrust Infrastructure Protocol, aligned with Pi Network’s values of decentralization, trust, and global scalability.
+## 🎯 Vision
 
----
-
-## ✅ Phase 1: Foundation (Completed)
-- Repository setup and initial documentation
-- License and contribution guidelines
-- CodeQL security integration
-- CI/CD pipeline configuration
+PiTrust aims to become the foundational trust layer for all Pi Network applications, enabling secure identity, transparent reputation, and decentralized governance across a global ecosystem.
 
 ---
 
-## 🔄 Phase 2: Core Development (In Progress)
-- Credential verification module (certificates, identities, permissions)
-- Reputation scoring engine with transparent metrics
-- DAO governance logic and smart contract design
-- Integration of zero-trust architecture principles
+## 📍 Milestones
+
+### ✅ Phase 1: Core Infrastructure (Completed)
+- Project initialization and GitHub repository setup  
+- ORCID identity verification and public documentation  
+- Initial API endpoints defined in `openapi.yaml`  
+- CodeQL security integration and audit (Score: 98/100)  
+- README.md finalized with full badge set and verified links
+
+### 🔄 Phase 2: Public Readiness (In Progress)
+- Finalize `SECURITY.md`, `ROADMAP.md`, and `WHITEPAPER.md`  
+- Prepare Stripe and GitHub Sponsors integration  
+- Submit project to CIH Bank for institutional review  
+- Publish bilingual (Arabic/English) updates and outreach materials  
+- Launch official landing page for PiTrust
+
+### 🔜 Phase 3: Core Team Review & Mainnet Integration
+- Submit PiTrust to App Studio for Pi Core Team evaluation  
+- Integrate with Pi SDK for authentication and payments  
+- Begin onboarding of Pi Apps and developers  
+- Launch DAO governance module and validator reputation scoring
+
+### 🌍 Phase 4: Global Expansion
+- Translate documentation into 5+ languages  
+- Establish partnerships with regional Pi communities  
+- Launch PiTrust Grants Program for developers  
+- Publish academic paper on decentralized trust infrastructure
 
 ---
 
-## 🧪 Phase 3: Integration & Testing (Planned Q4 2025)
-- Pi dApp onboarding toolkit (E-commerce, Social, etc.)
-- Multi-chain compatibility testing (Pi Network, Ethereum, etc.)
-- Community feedback loop and bug bounty preparation
+## 📂 Related Files
+
+- [README.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/README.md)  
+- [SECURITY.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/SECURITY.md)  
+- [WHITEPAPER.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/WHITEPAPER.md)  
+- [openapi.yaml](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/openapi.yaml)
 
 ---
 
-## 🚀 Phase 4: Public Launch & Review (Planned Q1 2026)
-- Formal review by Pi Core Team
-- Activation of official domains and support channels
-- GitHub Sponsors and crypto wallet integration
-- Print-ready documentation for funders and partners
+## 🇲🇦 Moroccan Legacy
+
+Every milestone is a step toward building Morocco’s digital future.  
+PiTrust is proudly developed in Tetouan, with a commitment to transparency, security, and global inclusion.
 
 ---
 
-## 🌍 Long-Term Vision
-PiTrust aims to become the universal trust and reputation layer for decentralized ecosystems, starting with Pi Network and expanding globally.  
-Our mission is to empower secure, transparent, and community-driven digital interactions.
-
----
-
-## 📎 Related Documents
-- [README.md](./README.md)
-- [SECURITY.md](./SECURITY.md)
-- [FUNDING.md](./FUNDING.md)
-- [TEAM.md](./TEAM.md)
-- [USE-CASES.md](./USE-CASES.md)
+_Last updated: 2025/10/16_

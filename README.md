@@ -5,7 +5,16 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 ![Last Updated](https://img.shields.io/github/last-commit/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol?color=brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # PiTrust Infrastructure Protocol
+## 🔗 Verified Identity
+
+[![ORCID iD](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0009-6663-902X)
+[EL MKHITAR EL MADANI – ORCID Profile](https://orcid.org/0009-0009-6663-902X)
+
+Founder of PiTrust Protocol – [Mainnet Ready](https://apppitrustcddfc8244.pinet.com)  
+GitHub Sponsors integration in progress with CIH Bank and Stripe  
+Committed to transparency, legal compliance, and global recognition
 
 > **"Building the foundation of digital trust inside the Pi Network ecosystem."**
 

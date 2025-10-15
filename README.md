@@ -7,9 +7,10 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 # PiTrust Infrastructure Protocol
+
 ## 🔗 Verified Identity
 
-[![ORCID iD](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0009-6663-902X)
+[![ORCID iD](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0009-6663-902X)  
 [EL MKHITAR EL MADANI – ORCID Profile](https://orcid.org/0009-0009-6663-902X)
 
 Founder of PiTrust Protocol – [Mainnet Ready](https://apppitrustcddfc8244.pinet.com)  
@@ -21,29 +22,31 @@ Committed to transparency, legal compliance, and global recognition
 PiTrust is a decentralized **Web3 trust infrastructure protocol** designed to enable verification, transparency, and secure identity across all Pi Network applications.
 
 It provides a unified layer for:
+
 - 🔐 Digital trust & reputation verification  
 - 🌐 Interconnection between Pi Apps  
 - 🧠 Smart identity management  
 - ⚙️ API & SDK integration for developers  
 
-PiTrust aims to become the **core digital trust layer** within Pi Network — ensuring that users, developers, and applications interact in a transparent, secure, and trustworthy environment.
+---
+
+## 🚀 Current Status
+
+- ✅ CodeQL Security Check: **98/100**  
+- ✅ Infrastructure Verified: **Security Passed**  
+- ✅ License: **MIT (Open Source)**  
+- 🔵 Pi Core Team Review: **Pending Mainnet Inclusion**
 
 ---
 
-### 🚀 Current Status
-✅ CodeQL Security Check: **98/100**  
-✅ Infrastructure Verified: **Security Passed**  
-✅ License: **MIT (Open Source)**  
-🔵 Pi Core Team Review: **Pending Mainnet Inclusion**
+## 🧭 Vision
 
----
-
-### 🧭 Vision
 To create a **global decentralized trust protocol** that empowers over **60 million pioneers** to interact safely in the Web3 era — from Morocco to the world 🌍.
 
 ---
 
-### 🛠️ Technology Stack
+## 🛠️ Technology Stack
+
 - **Frontend:** React / Next.js  
 - **Backend:** Node.js / Django REST API  
 - **Database:** PostgreSQL / MongoDB  
@@ -51,60 +54,69 @@ To create a **global decentralized trust protocol** that empowers over **60 mill
 
 ---
 
-### 📜 License
+## 📜 License
+
 This project is open-source under the **MIT License**.  
 Feel free to contribute, fork, or integrate with the PiTrust API.
 
 ---
-### 🧩 Overview
 
-## Status
-- **Mainnet Ready (pending Core Team final endorsement)**  
-- **Readiness Score (Pi Core team Review): 98 / 100**  
-- Key highlights: **95% gas reduction**, **DAO governance model**, **SDK/API ready**
+## 📂 Quicklinks
 
----
-
-## Quicklinks
-- Repository: `https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol`
-- OpenAPI (minimal): `openapi.yaml`
-- Security summary: `SECURITY_REPORT.md`
-- Roadmap: `ROADMAP.md`
-- Governance draft: `GOVERNANCE.md`
+- Repository: [PiTrust GitHub](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol)  
+- [OpenAPI (minimal)](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/openapi.yaml)  
+- [SECURITY_REPORT.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/SECURITY_REPORT.md)  
+- [ROADMAP.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/ROADMAP.md)  
+- [GOVERNANCE.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/GOVERNANCE.md)  
+- [CONTRIBUTING.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/CONTRIBUTING.md)  
+- [SECURITY.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/SECURITY.md)  
+- [WHITEPAPER.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/WHITEPAPER.md)  
+- [OVERVIEW.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/OVERVIEW.md)  
+- [NOTICE.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/NOTICE.md)
 
 ---
 
-## What is PiTrust (short)
+## 🧠 What is PiTrust (Short)
+
 PiTrust is a decentralized trust layer that:
-- Verifies user identity signals (KYC integration, behavior signals);
-- Computes a fair, transparent reputation score per user;
-- Exposes a simple API/SDK for dApps to query trust & reputation.
+
+- Verifies user identity signals (KYC integration, behavior signals)  
+- Computes a fair, transparent reputation score per user  
+- Exposes a simple API/SDK for dApps to query trust & reputation
 
 ---
 
-## Why this matters
-Pi Network includes millions of pioneers. PiTrust helps apps reduce fraud, improve UX, and onboard users faster with a shared trust foundation.
+## 💡 Why This Matters
+
+Pi Network includes millions of pioneers.  
+PiTrust helps apps reduce fraud, improve UX, and onboard users faster with a shared trust foundation.
 
 ---
 
-## Current stage
-- Documentation: complete (README, ROADMAP, SECURITY)  
+## 📊 Current Stage
+
+- Documentation: complete (README, ROADMAP, SECURITY, WHITEPAPER)  
 - Security: CodeQL analysis integrated (score: 98/100)  
-- Review: Under official review by Pi Core Team Review (submission available in App Studio)
+- Review: Under official review by Pi Core Team (submission available in App Studio)  
+- API: [openapi.yaml](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/openapi.yaml) – verified endpoints
 
 ---
 
-## How to help / contact
+## 🤝 How to Help / Contact
+
 If you are a developer or security researcher and want to contribute:
-- Read `CONTRIBUTING.md`
-- For security disclosures: see `SECURITY.md`
-- Contact: madanimkhitar22@gmail.com or open an issue/discussion on GitHub.
+
+- Read [CONTRIBUTING.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/CONTRIBUTING.md)  
+- For security disclosures: see [SECURITY.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/SECURITY.md)  
+- Contact: [madanimkhitar22@gmail.com](mailto:madanimkhitar22@gmail.com) or open an issue/discussion on GitHub
 
 ---
 
-## Short Arabic overview
-**PiTrust** هو بروتوكول لبناء "الثقة الرقمية" داخل منظومة Pi Network: تحقق هويات، حساب سمعة رقمية، وواجهة برمجة تطبيقات موحدة لتسهيل اعتماد التطبيقات داخل الشبكة.
+## 🌐 Short Arabic Overview
+
+**PiTrust** هو بروتوكول لبناء "الثقة الرقمية" داخل منظومة Pi Network:  
+تحقق هويات، حساب سمعة رقمية، وواجهة برمجة تطبيقات موحدة لتسهيل اعتماد التطبيقات داخل الشبكة.
 
 ---
 
-_Last updated: 2025/10/11
+_Last updated: 2025/10/15_

@@ -4,7 +4,7 @@
 ![Mainnet Ready](https://img.shields.io/badge/Mainnet%20Ready-Core%20Review%20Pending-blue.svg)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 ![Last Updated](https://img.shields.io/github/last-commit/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol?color=brightgreen)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: PiOS](https://img.shields.io/badge/license-PiOS-blue)
 
 # PiTrust Infrastructure Protocol
 
@@ -34,7 +34,7 @@ It provides a unified layer for:
 
 - ✅ CodeQL Security Check: **98/100**  
 - ✅ Infrastructure Verified: **Security Passed**  
-- ✅ License: **MIT (Open Source)**  
+- ✅ License: **PiOS (Pi Network Exclusive)**  
 - 🔵 Pi Core Team Review: **Pending Mainnet Inclusion**
 
 ---
@@ -56,8 +56,11 @@ To create a **global decentralized trust protocol** that empowers over **60 mill
 
 ## 📜 License
 
-This project is open-source under the **MIT License**.  
-Feel free to contribute, fork, or integrate with the PiTrust API.
+This project is licensed under the **Pi Open Source License (PiOS)**.  
+It is intended for use exclusively within the Pi Network ecosystem.  
+For full license terms, see the [LICENSE](./LICENSE) file.
+
+© 2025 EL MADANI EL MKHITAR
 
 ---
 

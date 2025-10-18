@@ -1,71 +1,37 @@
-name: Build and Attest
+name: Build and Attach
 
 on:
-  workflow_dispatch:
   push:
-    branches: [ main ]
-
-permissions:
-  contents: read
-  id-token: write
-  checks: write
-  actions: read
+    branches:
+      - main
 
 jobs:
-  build-and-attest:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-22.04  # Updated to avoid deprecation of ubuntu-18.04
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4  # Updated to latest stable version
         with:
-          node-version: '18'
-          cache: 'npm'
+          python-version: '3.9'
 
       - name: Install dependencies
-        run: npm ci
+        run: pip install -r requirements.txt
 
-      - name: Run lint (optional)
-        run: npm run lint || echo "lint warnings"
+      - name: Lint with flake8
+        run: flake8 .
 
-      - name: Build (creates dist/)
-        run: |
-          npm run build
-          echo "Build completed."
-      
-      - name: Debug - list workspace
-        run: |
-          echo ">>> workspace files:"
-          ls -la
-          echo ">>> dist contents:"
-          ls -la ./dist || true
+      - name: Run tests with pytest
+        run: pytest
 
-      - name: Run tests (optional)
-        run: npm test || echo "tests failed (see logs)"
+      - name: Build distribution
+        run: python setup.py sdist bdist_wheel
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v3
         with:
-          name: pitrust-dist
-          path: ./dist
-
-      # ======= Example: create provenance/attestation (pseudo) =========
-      # Replace with the exact action you use for attestation (cosign/sigstore etc.)
-      - name: Create provenance attestation (example using sigstore/cosign)
-        if: success()
-        uses: sigstore/cosign-action@v2
-        with:
-          action: attest
-          input: ./dist
-          keyless: true
-        env:
-          COSIGN_EXPERIMENTAL: "1"
-          # If your attestation needs secrets, provide them here as GitHub Secrets
-
-      - name: Complete
-        run: echo "Build and attest workflow finished."
+          name: python-dist
+          path: dist/

@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   build-and-attest:
-    runs-on: ubuntu-22.04  # Updated to avoid deprecation of ubuntu-18.04
+    runs-on: ubuntu-22.04 
 
     steps:
       - name: Checkout repository
@@ -59,6 +59,7 @@ jobs:
 
       - name: Create provenance attestation
         if: ${{ success() }}
+        id: attest  
         uses: sigstore/cosign-action@v2
         with:
           args: >

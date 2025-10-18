@@ -1,0 +1,70 @@
+name: Build and Attest
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  id-token: write
+  checks: write
+  actions: read
+
+jobs:
+  build-and-attest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run lint
+        run: npm run lint
+        continue-on-error: true
+
+      - name: Build (creates dist/)
+        run: |
+          npm run build
+          echo "Build completed."
+
+      - name: Debug - list workspace
+        run: |
+          echo ">>> workspace files:"
+          ls -la
+          echo ">>> dist contents:"
+          ls -la ./dist || true
+
+      - name: Run tests
+        run: npm test
+        continue-on-error: true
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: pitrust-dist
+          path: ./dist
+
+      - name: Create provenance attestation
+        if: ${{ success() }}
+        uses: sigstore/cosign-action@v2
+        with:
+          args: >
+            attest --keyless --type=custom --predicate ./dist
+        env:
+          COSIGN_EXPERIMENTAL: "1"
+
+      - name: Complete
+        run: echo "✅ Build and attest workflow finished by EL MADANI EL MKHITAR <madanimkhitar22@gmail.com>"

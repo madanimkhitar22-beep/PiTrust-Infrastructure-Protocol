@@ -1,11 +1,18 @@
-# Create a minimal JavaScript file for CodeQL analysis
-echo "// trust-score.js\nfunction calculateTrustScore(user) {\n  return user.reputation * 0.9;\n}" > trust-score.js
+// trust-score.js
+// Minimal JavaScript file for CodeQL analysis
 
-# Stage the new file for commit
-git add trust-score.js
+/**
+ * Calculates a trust score based on user reputation.
+ * @param {Object} user - The user object with a reputation property.
+ * @returns {number} - The calculated trust score.
+ */
+function calculateTrustScore(user) {
+  if (!user || typeof user.reputation !== 'number') {
+    throw new Error('Invalid user object');
+  }
+  return user.reputation * 0.9;
+}
 
-# Commit with a professional message
-git commit -m "feat: add placeholder JavaScript file for CodeQL analysis"
-
-# Push the changes to the main branch
-git push origin main
+// Example usage (can be removed in production)
+const exampleUser = { reputation: 100 };
+console.log('Trust Score:', calculateTrustScore(exampleUser));

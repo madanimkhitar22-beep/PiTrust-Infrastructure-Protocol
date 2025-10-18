@@ -6,9 +6,15 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js pioneer-demo",
-    "test": "node -e \"console.log('OK')\""
+    "test": "node -e \"console.log('OK')\"",
+    "build": "echo 'Building PiTrust Infrastructure Protocol...'"
   },
-  "keywords": ["pitrust", "pi network", "protocol", "sdk"],
+  "keywords": [
+    "pitrust",
+    "pi network",
+    "protocol",
+    "sdk"
+  ],
   "author": "EL MADANI EL MKHITAR",
   "license": "MIT"
 }

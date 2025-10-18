@@ -1,19 +1,21 @@
 {
   "name": "pitrust-infrastructure-protocol",
   "version": "0.1.0",
-  "description": "Minimal placeholder to enable CodeQL analysis for PiTrust Infrastructure Protocol.",
+  "description": "Minimal placeholder to enable CodeQL analysis and secure provenance attestation for PiTrust Infrastructure Protocol.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
     "start": "node src/index.js pioneer-demo",
     "test": "node -e \"console.log('OK')\"",
-    "build": "echo 'Building PiTrust Infrastructure Protocol...'"
+    "build": "mkdir -p dist && echo 'PiTrust Build Artifact' > dist/index.html"
   },
   "keywords": [
     "pitrust",
     "pi network",
     "protocol",
-    "sdk"
+    "sdk",
+    "security",
+    "slsa"
   ],
   "author": "EL MADANI EL MKHITAR",
   "license": "MIT"

@@ -36,3 +36,7 @@ jobs:
         uses: actions/attest-build-provenance@v1
         with:
           subject-path: ./dist
+permissions:
+  id-token: write
+  contents: read
+  actions: write

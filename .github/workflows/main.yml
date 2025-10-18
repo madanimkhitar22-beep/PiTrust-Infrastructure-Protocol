@@ -27,6 +27,11 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Prepare dist folder
+        run: |
+          mkdir -p dist
+          echo "PiTrust Build Artifact" > dist/index.html
+
       - name: Generate build provenance attestation
         uses: actions/attest-build-provenance@v1
         with:

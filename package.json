@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node src/index.js pioneer-demo",
     "test": "node -e \"console.log('OK')\"",
-    "build": "mkdir -p dist && echo 'PiTrust Build Artifact' > dist/index.html"
+    "build": "mkdir -p dist && echo 'PiTrust Build Artifact' > dist/index.html",
+    "clean": "rm -rf dist node_modules",
+    "check:env": "node -e \"console.log('node', process.version)\""
   },
   "keywords": [
     "pitrust",
@@ -18,5 +20,16 @@
     "slsa"
   ],
   "author": "EL MADANI EL MKHITAR",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/issues"
+  },
+  "homepage": "https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol#readme",
+  "engines": {
+    "node": ">=16"
+  }
 }

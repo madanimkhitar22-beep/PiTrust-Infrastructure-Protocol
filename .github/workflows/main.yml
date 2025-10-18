@@ -18,16 +18,24 @@ jobs:
         with:
           python-version: '3.9'
           
-      - name: Validate environment
+      - name: Validate Python environment
         run: |
-          echo "✅ Python version:"
+          echo "✅ Python version check:"
           python --version
-          echo "✅ Repository structure:"
+          pip --version
+          echo "✅ Repository content:"
           ls -la
-          echo "✅ Workflow completed successfully"
+          echo "✅ Workflow validation completed successfully"
+          
+      - name: Create validation report
+        run: |
+          echo "Workflow Validation Report" > report.txt
+          echo "Date: $(date)" >> report.txt
+          echo "Python Version: $(python --version)" >> report.txt
+          echo "Status: ✅ PASSED" >> report.txt
           
       - name: Upload validation report
         uses: actions/upload-artifact@v4
         with:
           name: validation-report
-          path: .
+          path: report.txt

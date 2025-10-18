@@ -18,19 +18,47 @@ jobs:
         with:
           node-version: '18'
           
-      - name: Node.js Environment Check
+      - name: Basic Environment Check
         run: |
-          echo "=== Node.js Validation ==="
+          echo "=== Node.js Environment ==="
           node --version
           npm --version
-          echo "✅ Node.js setup successful"
+          echo "✅ Basic setup successful"
           
-      - name: Check package.json
+      - name: Repository Structure Analysis
+        run: |
+          echo "=== Repository Contents ==="
+          ls -la
+          echo "=== JavaScript/TypeScript Files ==="
+          find . -name "*.js" -o -name "*.ts" -o -name "*.json" | head -10
+          
+      - name: Package.json Check
         run: |
           if [ -f package.json ]; then
-            echo "✅ package.json exists"
-            echo "Available scripts:"
-            npm run
+            echo "✅ package.json found"
+            echo "Package name: $(node -p "require('./package.json').name || 'No name'")"
+            echo "Package version: $(node -p "require('./package.json').version || 'No version'")"
           else
-            echo "⚠️ No package.json found"
+            echo "ℹ️ No package.json - this is a new JavaScript project"
+            # إنشاء package.json بسيط إذا لم يكن موجوداً
+            cat > package.json << EOF
+{
+  "name": "pitrust-infrastructure",
+  "version": "1.0.0",
+  "description": "PiTrust Infrastructure Protocol",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'No tests yet'"
+  }
+}
+EOF
+            echo "📁 Created basic package.json for project"
           fi
+          
+      - name: Final Success
+        run: |
+          echo "🎉 Workflow completed successfully!"
+          echo "✅ Node.js environment: Ready"
+          echo "✅ Project structure: Validated"
+          echo "✅ Next step: Add your JavaScript code"

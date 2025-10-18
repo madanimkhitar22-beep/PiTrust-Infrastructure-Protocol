@@ -1,4 +1,4 @@
-name: Build Validation
+name: Node.js Validation
 
 on:
   push:
@@ -13,29 +13,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.9'
+          node-version: '18'
           
-      - name: Validate Python environment
+      - name: Node.js Environment Check
         run: |
-          echo "✅ Python version check:"
-          python --version
-          pip --version
-          echo "✅ Repository content:"
-          ls -la
-          echo "✅ Workflow validation completed successfully"
+          echo "=== Node.js Validation ==="
+          node --version
+          npm --version
+          echo "✅ Node.js setup successful"
           
-      - name: Create validation report
+      - name: Check package.json
         run: |
-          echo "Workflow Validation Report" > report.txt
-          echo "Date: $(date)" >> report.txt
-          echo "Python Version: $(python --version)" >> report.txt
-          echo "Status: ✅ PASSED" >> report.txt
-          
-      - name: Upload validation report
-        uses: actions/upload-artifact@v4
-        with:
-          name: validation-report
-          path: report.txt
+          if [ -f package.json ]; then
+            echo "✅ package.json exists"
+            echo "Available scripts:"
+            npm run
+          else
+            echo "⚠️ No package.json found"
+          fi

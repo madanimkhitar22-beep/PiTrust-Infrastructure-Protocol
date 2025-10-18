@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   build-and-attest:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04  # Updated to avoid deprecation of ubuntu-18.04
 
     steps:
       - name: Checkout repository
@@ -38,11 +38,11 @@ jobs:
       - name: Build (creates dist/)
         run: |
           npm run build
-          echo "Build completed."
+          echo "✅ Build completed."
 
       - name: Debug - list workspace
         run: |
-          echo ">>> workspace files:"
+          echo ">>> Workspace files:"
           ls -la
           echo ">>> dist contents:"
           ls -la ./dist || true

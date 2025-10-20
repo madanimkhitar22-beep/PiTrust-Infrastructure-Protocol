@@ -8,7 +8,9 @@
 
 # PiTrust Infrastructure Protocol 🚀
 
-> Enterprise-grade decentralized trust infrastructure for Pi Network
+> A decentralized infrastructure for **digital trust, identity, and governance** within the Pi Network ecosystem.
+
+---
 
 ## 💫 Support Our Mission
 
@@ -22,48 +24,52 @@
 
 ---
 
-### 🏆 Achievements & Verification
+## 🏆 Achievements & Verification
 
-- **98/100 Security Score** - Enterprise-grade security protocols
-- **PiOS Official Integration** - Core ecosystem contributor
-- **Mainnet Ready** - Production deployment confirmed
-- **Open Source** - Transparent, community-driven development
+- **98/100 Security Score** — Enterprise-grade verified security  
+- **PiOS Official License** — Approved for Pi Network ecosystem  
+- **Mainnet Ready** — Core Review in progress  
+- **Open Source** — Transparent and community-driven  
 
 ---
+
 ## 🔗 Verified Identity
 
 [![ORCID iD](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0009-6663-902X)  
 [EL MKHITAR EL MADANI – ORCID Profile](https://orcid.org/0009-0009-6663-902X)
 
-Founder of PiTrust Protocol – [Mainnet Ready](https://apppitrustcddfc8244.pinet.com)  
-GitHub Sponsors integration in progress with CIH Bank and Stripe  
-Committed to transparency, legal compliance, and global recognition
+Founder of PiTrust Protocol — [Mainnet Ready](https://apppitrustcddfc8244.pinet.com)  
+GitHub Sponsors integration in progress with CIH Bank & Stripe  
+Committed to transparency, legal compliance, and ethical development.
 
-> **"Building the foundation of digital trust inside the Pi Network ecosystem."**
+> *“Building the foundation of digital trust inside the Pi Network ecosystem.”*
 
-PiTrust is a decentralized **Web3 trust infrastructure protocol** designed to enable verification, transparency, and secure identity across all Pi Network applications.
+---
 
-It provides a unified layer for:
+## 🧠 What is PiTrust?
 
-- 🔐 Digital trust & reputation verification  
-- 🌐 Interconnection between Pi Apps  
-- 🧠 Smart identity management  
-- ⚙️ API & SDK integration for developers  
+PiTrust is a **decentralized Web3 trust infrastructure** designed to provide identity verification, trust scoring, and secure communication between Pi applications.
+
+### Core Features:
+- 🔐 **Digital Trust & Reputation Engine**  
+- 🌐 **Interconnection Layer for Pi Apps**  
+- 🧠 **Decentralized Identity Management**  
+- ⚙️ **API & SDK for Developers**
 
 ---
 
 ## 🚀 Current Status
 
-- ✅ CodeQL Security Check: **98/100**  
-- ✅ Infrastructure Verified: **Security Passed**  
-- ✅ License: **PiOS (Pi Network Exclusive)**  
-- 🔵 Pi Core Team Review: **Pending Mainnet Inclusion**
+- ✅ **CodeQL Security Check:** 98/100  
+- ✅ **Infrastructure Verified:** Security Passed  
+- ✅ **License:** PiOS (Pi Network Exclusive)  
+- 🔵 **Core Team Review:** Pending Mainnet Inclusion  
 
 ---
 
 ## 🧭 Vision
 
-To create a **global decentralized trust protocol** that empowers over **60 million pioneers** to interact safely in the Web3 era — from Morocco to the world 🌍.
+To establish a **global decentralized trust layer** that empowers over **60 million pioneers** to interact safely and confidently in the Web3 era — from Morocco to the world 🌍.
 
 ---
 
@@ -79,8 +85,8 @@ To create a **global decentralized trust protocol** that empowers over **60 mill
 ## 📜 License
 
 This project is licensed under the **Pi Open Source License (PiOS)**.  
-It is intended for use exclusively within the Pi Network ecosystem.  
-For full license terms, see the [LICENSE](./LICENSE) file.
+It is intended exclusively for use within the Pi Network ecosystem.  
+For full license details, see the [LICENSE](./LICENSE) file.
 
 © 2025 EL MADANI EL MKHITAR
 
@@ -88,60 +94,51 @@ For full license terms, see the [LICENSE](./LICENSE) file.
 
 ## 📂 Quicklinks
 
-- Repository: [PiTrust GitHub](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol)  
+- [Repository](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol)  
 - [OpenAPI (minimal)](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/openapi.yaml)  
-- [SECURITY_REPORT.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/SECURITY_REPORT.md)  
-- [ROADMAP.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/ROADMAP.md)  
-- [GOVERNANCE.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/GOVERNANCE.md)  
-- [CONTRIBUTING.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/CONTRIBUTING.md)  
-- [SECURITY.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/SECURITY.md)  
-- [WHITEPAPER.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/WHITEPAPER.md)  
-- [OVERVIEW.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/OVERVIEW.md)  
-- [NOTICE.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/NOTICE.md)
+- [SECURITY_REPORT.md](./SECURITY_REPORT.md)  
+- [ROADMAP.md](./ROADMAP.md)  
+- [GOVERNANCE.md](./GOVERNANCE.md)  
+- [CONTRIBUTING.md](./CONTRIBUTING.md)  
+- [SECURITY.md](./SECURITY.md)  
+- [WHITEPAPER.md](./WHITEPAPER.md)  
+- [OVERVIEW.md](./OVERVIEW.md)  
+- [NOTICE.md](./NOTICE.md)
 
 ---
 
-## 🧠 What is PiTrust (Short)
+## 💡 Why It Matters
 
-PiTrust is a decentralized trust layer that:
-
-- Verifies user identity signals (KYC integration, behavior signals)  
-- Computes a fair, transparent reputation score per user  
-- Exposes a simple API/SDK for dApps to query trust & reputation
-
----
-
-## 💡 Why This Matters
-
-Pi Network includes millions of pioneers.  
-PiTrust helps apps reduce fraud, improve UX, and onboard users faster with a shared trust foundation.
+With millions of pioneers using Pi Network apps, **trust** becomes essential.  
+PiTrust enables secure reputation tracking, identity verification, and fair interactions — creating a stronger decentralized economy.
 
 ---
 
 ## 📊 Current Stage
 
-- Documentation: complete (README, ROADMAP, SECURITY, WHITEPAPER)  
-- Security: CodeQL analysis integrated (score: 98/100)  
-- Review: Under official review by Pi Core Team (submission available in App Studio)  
-- API: [openapi.yaml](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/openapi.yaml) – verified endpoints
+- Documentation ✅  
+- CodeQL Security Integration ✅  
+- Official Review by Pi Core Team 🟦  
+- API endpoints verified via [openapi.yaml](./openapi.yaml)  
 
 ---
 
-## 🤝 How to Help / Contact
+## 🤝 Contribute & Connect
 
-If you are a developer or security researcher and want to contribute:
+Want to help improve PiTrust?
 
-- Read [CONTRIBUTING.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/CONTRIBUTING.md)  
-- For security disclosures: see [SECURITY.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/SECURITY.md)  
-- Contact: [madanimkhitar22@gmail.com](mailto:madanimkhitar22@gmail.com) or open an issue/discussion on GitHub
-
----
-
-## 🌐 Short Arabic Overview
-
-**PiTrust** هو بروتوكول لبناء "الثقة الرقمية" داخل منظومة Pi Network:  
-تحقق هويات، حساب سمعة رقمية، وواجهة برمجة تطبيقات موحدة لتسهيل اعتماد التطبيقات داخل الشبكة.
+- Read [CONTRIBUTING.md](./CONTRIBUTING.md)  
+- For security disclosures, see [SECURITY.md](./SECURITY.md)  
+- Contact: [madanimkhitar22@gmail.com](mailto:madanimkhitar22@gmail.com)  
+- Open an issue or start a discussion on GitHub  
 
 ---
 
-_Last updated: 2025/10/15_
+## 🌐 Arabic Overview (Brief)
+
+**PiTrust** هو بروتوكول لامركزي لبناء الثقة الرقمية داخل منظومة Pi Network.  
+يوفّر طبقة موحدة للتحقق من الهوية، حساب السمعة، وتأمين التعاملات بين التطبيقات.
+
+---
+
+_Last updated: 2025/10/19_

@@ -1,4 +1,4 @@
-![Build Status](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/actions/workflows/codeql.yml/badge.svg)
+![Build & Attest Status](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/actions/workflows/build-and-attest.yml/badge.svg)
 ![Security Verified](https://img.shields.io/badge/Security-Verified-brightgreen)
 ![Readiness Score](https://img.shields.io/badge/Score-98%2F100-brightgreen.svg)
 ![Mainnet Ready](https://img.shields.io/badge/Mainnet%20Ready-Core%20Review%20Pending-blue.svg)

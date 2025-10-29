@@ -138,6 +138,16 @@ Want to help improve PiTrust?
 
 **PiTrust** هو بروتوكول لامركزي لبناء الثقة الرقمية داخل منظومة Pi Network.  
 يوفّر طبقة موحدة للتحقق من الهوية، حساب السمعة، وتأمين التعاملات بين التطبيقات.
+---
+
+**PiBridge — Smart Migration Utility**  
+Developed under the PiTrust Infrastructure Protocol, PiBridge enables secure, governance-driven migration of Pi Ecosystem assets between Pi Network and external blockchains.  
+- 🔗 [Repository](https://github.com/madanimkhitar22-beep/pibridge-smart-migration)  
+- 🔗 [Live Demo](https://apppibridgesmart8213.pinet.com)  
+- 🧠 Governance-driven, emergency-protected, and fully auditable  
+- 🛠 Built by El Madani El Mkhitar — independent builder under PiTrust
+
+This utility reflects PiTrust’s commitment to transparency, decentralization, and institutional-grade tooling within the Pi Ecosystem.
 
 ---
 

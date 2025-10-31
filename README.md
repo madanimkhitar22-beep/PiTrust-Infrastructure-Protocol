@@ -6,9 +6,8 @@
 ![Last Updated](https://img.shields.io/github/last-commit/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol?color=brightgreen)
 ![License: PiOS](https://img.shields.io/badge/license-PiOS-blue)
 
-# PiTrust Infrastructure Protocol 🚀
-
-> A decentralized infrastructure for **digital trust, identity, and governance** within the Pi Network ecosystem.
+# PiTrust Infrastructure Protocol 🚀  
+> Decentralized Infrastructure for **Digital Trust, Identity & Governance** within the Pi Network Ecosystem.
 
 ---
 
@@ -26,21 +25,18 @@
 
 ## 🏆 Achievements & Verification
 
-- **98/100 Security Score** — Enterprise-grade verified security  
-- **PiOS Official License** — Approved for Pi Network ecosystem  
-- **Mainnet Ready** — Core Review in progress  
-- **Open Source** — Transparent and community-driven  
+- **98/100 Security Score** — Enterprise-grade verified  
+- **PiOS Official License** — Approved for Pi Network Ecosystem  
+- **Mainnet Ready** — Pending Core Team Review  
+- **Open Source** — Transparent and Community-Driven  
 
 ---
 
-## 🔗 Verified Identity
+## 👤 Verified Identity
 
-[![ORCID iD](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0009-6663-902X)  
-[EL MKHITAR EL MADANI – ORCID Profile](https://orcid.org/0009-0009-6663-902X)
-
-Founder of PiTrust Protocol — [Mainnet Ready](https://apppitrustcddfc8244.pinet.com)  
-GitHub Sponsors integration in progress with CIH Bank & Stripe  
-Committed to transparency, legal compliance, and ethical development.
+**Founder:** [EL MKHITAR EL MADANI](https://orcid.org/0009-0009-6663-902X)  
+**ORCID ID:** 0009-0009-6663-902X  
+**Status:** Mainnet Ready — [Live Instance](https://apppitrustcddfc8244.pinet.com)
 
 > *“Building the foundation of digital trust inside the Pi Network ecosystem.”*
 
@@ -48,107 +44,91 @@ Committed to transparency, legal compliance, and ethical development.
 
 ## 🧠 What is PiTrust?
 
-PiTrust is a **decentralized Web3 trust infrastructure** designed to provide identity verification, trust scoring, and secure communication between Pi applications.
+**PiTrust** is a **Web3 Trust Infrastructure** designed to enable decentralized identity, reputation scoring, and secure governance across Pi Network applications.
 
 ### Core Features:
-- 🔐 **Digital Trust & Reputation Engine**  
-- 🌐 **Interconnection Layer for Pi Apps**  
-- 🧠 **Decentralized Identity Management**  
-- ⚙️ **API & SDK for Developers**
-
----
-
-## 🚀 Current Status
-
-- ✅ **CodeQL Security Check:** 98/100  
-- ✅ **Infrastructure Verified:** Security Passed  
-- ✅ **License:** PiOS (Pi Network Exclusive)  
-- 🔵 **Core Team Review:** Pending Mainnet Inclusion  
+- 🔐 Digital Trust & Reputation Engine  
+- 🧩 Decentralized Identity Management  
+- 🌍 Interconnection Layer for Pi Apps  
+- ⚙️ Developer SDK & RESTful API  
 
 ---
 
 ## 🧭 Vision
 
-To establish a **global decentralized trust layer** that empowers over **60 million pioneers** to interact safely and confidently in the Web3 era — from Morocco to the world 🌍.
+To build a **global decentralized trust layer** for over **60M pioneers**, ensuring safe, transparent, and verifiable interactions across all Pi Network applications — *from Morocco to the world.* 🌍
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Frontend:** React / Next.js  
-- **Backend:** Node.js / Django REST API  
-- **Database:** PostgreSQL / MongoDB  
-- **Integration:** Pi SDK for authentication & payments  
+| Layer | Technology |
+|--------|-------------|
+| Frontend | React / Next.js |
+| Backend | Node.js / Django REST |
+| Database | PostgreSQL / MongoDB |
+| Blockchain Integration | Pi SDK / Web3 |
+| Security | AES-256 Encryption / CodeQL Scanning |
 
 ---
 
-## 📜 License
+## 🧾 Documentation & Resources
 
-This project is licensed under the **Pi Open Source License (PiOS)**.  
-It is intended exclusively for use within the Pi Network ecosystem.  
-For full license details, see the [LICENSE](./LICENSE) file.
-
-© 2025 EL MADANI EL MKHITAR
-
----
-
-## 📂 Quicklinks
-
-- [Repository](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol)  
-- [OpenAPI (minimal)](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/openapi.yaml)  
-- [SECURITY_REPORT.md](./SECURITY_REPORT.md)  
+- [SECURITY.md](./SECURITY.md)  
 - [ROADMAP.md](./ROADMAP.md)  
 - [GOVERNANCE.md](./GOVERNANCE.md)  
 - [CONTRIBUTING.md](./CONTRIBUTING.md)  
-- [SECURITY.md](./SECURITY.md)  
 - [WHITEPAPER.md](./WHITEPAPER.md)  
 - [OVERVIEW.md](./OVERVIEW.md)  
 - [NOTICE.md](./NOTICE.md)
 
 ---
 
-## 💡 Why It Matters
+## 🌐 Arabic Overview — نظرة عامة
 
-With millions of pioneers using Pi Network apps, **trust** becomes essential.  
-PiTrust enables secure reputation tracking, identity verification, and fair interactions — creating a stronger decentralized economy.
+**بروتوكول PiTrust** هو البنية التحتية اللامركزية للهوية والثقة الرقمية داخل منظومة **Pi Network**.  
+يهدف إلى تمكين المستخدمين من إنشاء هوية رقمية موثوقة، وتقييم السمعة بشكل عادل، وضمان الشفافية في جميع التعاملات.
+
+تم تطويره ضمن منظومة **PiTrust Ecosystem** التي تضم مجموعة تطبيقات متكاملة تعمل بتناغم على نفس الأساس التقني.
+
+---
+
+### 🔗 منظومة PiTrust Ecosystem
+
+| المشروع | الوصف | رابط المستودع | رابط التطبيق |
+|----------|--------|---------------|---------------|
+| 🧠 **PiTrust – Infrastructure Protocol** | البنية الأساسية للهوية والثقة الرقمية داخل شبكة Pi | [GitHub](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol) | [App](https://apppitrustcddfc8244.pinet.com/) |
+| 🌉 **PiBridge – Smart Migration** | أداة ذكية وآمنة لترحيل الأصول بين Pi والسلاسل الخارجية | [GitHub](https://github.com/madanimkhitar22-beep/pibridge-smart-migration) | [App](https://apppibridgesmart8213.pinet.com/) |
+| ☁️ **PiStorage – Decentralized Cloud** | تخزين سحابي لامركزي لتطبيقات Pi بأعلى معايير الأمان | [GitHub](https://github.com/madanimkhitar22-beep/PiStorage) | [App](https://apppistoragedece5411.pinet.com/) |
+| 💻 **PiNet OS – Distributed System Core** | نظام تشغيل موزع مخصص لتطبيقات Pi Network | [GitHub](https://github.com/madanimkhitar22-beep/PiNet-OS) | [App](https://apppinetos0523.pinet.com/) |
 
 ---
 
 ## 📊 Current Stage
 
-- Documentation ✅  
-- CodeQL Security Integration ✅  
-- Official Review by Pi Core Team 🟦  
-- API endpoints verified via [openapi.yaml](./openapi.yaml)  
+- ✅ Documentation Completed  
+- ✅ CodeQL Security Verification  
+- ✅ Infrastructure Integration  
+- 🟦 Awaiting Final Pi Core Review  
 
 ---
 
-## 🤝 Contribute & Connect
+## 📜 License
 
-Want to help improve PiTrust?
+Licensed under the **Pi Open Source License (PiOS)**  
+Exclusively for use within the **Pi Network Ecosystem**.  
+See [LICENSE](./LICENSE) for full terms.  
 
-- Read [CONTRIBUTING.md](./CONTRIBUTING.md)  
-- For security disclosures, see [SECURITY.md](./SECURITY.md)  
-- Contact: [madanimkhitar22@gmail.com](mailto:madanimkhitar22@gmail.com)  
-- Open an issue or start a discussion on GitHub  
-
----
-
-## 🌐 Arabic Overview (Brief)
-
-**PiTrust** هو بروتوكول لامركزي لبناء الثقة الرقمية داخل منظومة Pi Network.  
-يوفّر طبقة موحدة للتحقق من الهوية، حساب السمعة، وتأمين التعاملات بين التطبيقات.
----
-
-**PiBridge — Smart Migration Utility**  
-Developed under the PiTrust Infrastructure Protocol, PiBridge enables secure, governance-driven migration of Pi Ecosystem assets between Pi Network and external blockchains.  
-- 🔗 [Repository](https://github.com/madanimkhitar22-beep/pibridge-smart-migration)  
-- 🔗 [Live Demo](https://apppibridgesmart8213.pinet.com)  
-- 🧠 Governance-driven, emergency-protected, and fully auditable  
-- 🛠 Built by El Madani El Mkhitar — independent builder under PiTrust
-
-This utility reflects PiTrust’s commitment to transparency, decentralization, and institutional-grade tooling within the Pi Ecosystem.
+© 2025 **EL MKHITAR EL MADANI**
 
 ---
 
-_Last updated: 2025/10/19_
+## 🤝 Contribute & Contact
+
+- 💬 [Open Discussions](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/discussions)  
+- 🧩 [Report Issues](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/issues)  
+- 📧 Email: [madanimkhitar22@gmail.com](mailto:madanimkhitar22@gmail.com)  
+
+---
+
+> 🏗 **PiTrust Infrastructure Protocol** — Verified, Secure, and Mainnet Ready for Pi Network.

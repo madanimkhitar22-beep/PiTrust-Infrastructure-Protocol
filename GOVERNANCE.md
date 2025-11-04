@@ -1,58 +1,55 @@
-# 🏛 PiTrust Governance Model
+# 🏛️ Governance Model – PiTrust Protocol
 
-## Overview
-PiTrust operates as a **community-driven decentralized protocol** ensuring that identity verification and trust scoring remain transparent, fair, and verifiable on-chain.
-
-This document outlines how decisions are made, how updates are approved, and how stakeholders participate in maintaining the integrity of the network.
+_Last Updated: November 4, 2025_
 
 ---
 
-## 🧠 Core Principles
-- **Transparency:** All protocol changes are proposed through public Pull Requests.
-- **Security First:** Each update must pass CodeQL + infrastructure checks before merging.
-- **Decentralized Voting:** Validators and contributors vote on proposals with weighted reputation.
+## 🧠 Overview
+
+PiTrust adopts a **DAO-based governance framework** that enables decentralized decision-making, reputation-weighted voting, and automated rule enforcement using smart contracts.
 
 ---
 
-## ⚙ Governance Structure
-| Role | Responsibility | Voting Weight |
-|------|----------------|----------------|
-| **Core Maintainers** | Manage releases, security reviews | 3 votes |
-| **Validators** | Run verification nodes and validate trust data | 2 votes |
-| **Contributors** | Submit PRs and bug fixes | 1 vote |
-| **Community Reviewers** | Provide feedback and issue reports | advisory only |
+## ⚙️ Governance Structure
+
+| Component | Description |
+|------------|--------------|
+| Governance DAO | Oversees upgrades, proposals, and community votes |
+| Trust Council | Weighted validators based on reputation |
+| Reputation Oracle | Feeds real-time trust data |
+| PiQuantum Layer | Provides intelligent analysis and predictive consensus |
 
 ---
 
-## 💰 Staking & Rewards
-- Validators stake **Pi tokens** to join the trust validation layer.  
-- Misbehavior or fraudulent validation leads to **slashing penalties**.  
-- Active validators earn **periodic trust incentives** based on uptime and accuracy metrics.
+## 🔗 Integration Layers
+
+PiTrust governance operates in sync with:
+- **PiNet OS** for distributed node management  
+- **PiStorage** for encrypted voting records  
+- **PiQuantum Nexus** for adaptive decision analysis  
+- **PiBridge** for inter-protocol governance exchange  
 
 ---
 
-## 🗳 Voting Process
-1. **Proposal Submission:** Contributors create a governance proposal PR.
-2. **Discussion Phase:** Minimum 5 days for open comments.
-3. **Voting Phase:** Votes are cast by Validators and Core Maintainers.
-4. **Approval Threshold:**  
-   - Proposal passes if ≥ 60% weighted votes approve.  
-   - Critical updates (security/core) require ≥ 75%.
+## 🧩 Adaptive Intelligence Governance Layer
+
+The DAO integrates **PiQuantum Nexus AI** for:
+- Automated proposal prioritization  
+- Trust-weighted consensus forecasting  
+- Anomaly detection in voting behavior  
+- Sentiment-driven decision suggestions
 
 ---
 
-## 📊 Transparency Reports
-All accepted proposals are logged in `GOVERNANCE_LOG.md` including:
-- Proposal title and summary
-- Voting results
-- Commit hash
-- Implementation link
+## 🗳️ Voting Mechanism
+
+- Votes are weighted by **trust score**  
+- Transparent, auditable via PiNet OS  
+- Decisions automatically recorded on-chain  
 
 ---
 
-## 🌍 Community & Future Evolution
-As PiTrust expands into Mainnet, governance will gradually transition toward **DAO-based on-chain voting**, where votes are transparently recorded on Pi Network infrastructure.
-
----
-
-*Last updated: October 2025*
+## 📜 Documentation Links
+- [ROADMAP.md](./ROADMAP.md)  
+- [WHITEPAPER.md](./WHITEPAPER.md)  
+- [SECURITY.md](./SECURITY.md)

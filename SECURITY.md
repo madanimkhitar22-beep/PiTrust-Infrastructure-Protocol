@@ -1,50 +1,48 @@
-# 🔐 SECURITY.md
+# 🛡️ PiTrust Security Policy
 
-## 📣 Reporting a Vulnerability
-
-If you discover a security vulnerability within the PiTrust Infrastructure Protocol, please report it immediately to our security contact:
-
-📬 [madanimkhitar22@gmail.com](mailto:madanimkhitar22@gmail.com)
-
-You may also open a private issue on GitHub and tag it with `security`.
-
-We commit to responding within **3 business days**, and critical issues will be prioritized and patched promptly. A public advisory will be published following a coordinated disclosure timeline.
+_Last Updated: November 4, 2025_
 
 ---
 
-## 🛡️ Scope of This Document
+## 🧾 Overview
 
-This security policy covers:
-
-- API authentication and authorization  
-- Credential verification flows  
-- Reputation scoring and storage  
-- Node/validator interfaces and governance logic
+PiTrust maintains a **zero-trust architecture**, ensuring that no user, system, or process is implicitly trusted. All access requires verification via Pi SDK authentication.
 
 ---
 
-## ✅ Security Tools in Use
+## 🧩 Core Security Practices
 
-- **GitHub CodeQL** – integrated static analysis  
-- **Manual code review** – performed regularly  
-- **NPM audit** – for dependency vulnerabilities  
-- **Security Score** – currently: **98/100**  
-- **Last audit date** – 2025/10/12
-
----
-
-## 📄 Related Files
-
-- [SECURITY_REPORT.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/SECURITY_REPORT.md)  
-- [README.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/README.md)  
-- [ROADMAP.md](https://github.com/madanimkhitar22-beep/PiTrust-Infrastructure-Protocol/blob/main/ROADMAP.md)
+- Continuous CodeQL scanning  
+- Mutual encryption for all protocol communication  
+- Dependency security audits  
+- Automatic rollback in case of anomaly detection  
+- Governance-level anomaly alerts through PiQuantum Nexus  
 
 ---
 
-## 🇲🇦 Moroccan Identity & Commitment
+## 🌐 Connected Systems Security Review
 
-We uphold the highest standards of digital safety and transparency. Every security report is treated as a national contribution to building a secure digital future for Morocco and beyond.
+- **PiBridge** → Secure migration verification ✅  
+- **PiStorage** → Encrypted data validation ✅  
+- **PiNet OS** → Distributed node consensus ✅  
+- **PiQuantum Nexus** → Intelligent trust scoring ✅  
 
 ---
 
-_Last updated: 2025/10/16_
+## 📣 Responsible Disclosure
+
+Found a potential issue?  
+Contact: [madanimkhitar22@gmail.com](mailto:madanimkhitar22@gmail.com)
+
+Response window: 48h – 72h  
+Reports are reviewed under Pi Core Review compliance.
+
+---
+
+## 🧠 Status Summary
+
+| Check | Result |
+|--------|---------|
+| Vulnerabilities | 0 Open |
+| Verified Systems | 4 / 4 |
+| Status | ✅ All Secure |

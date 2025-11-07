@@ -8,7 +8,7 @@
 
 # PiTrust Infrastructure Protocol 🚀
 
-> A decentralized infrastructure for **digital trust, identity, and governance** within the Pi Network ecosystem — now fully connected to the PiQuantum Intelligence Layer.
+> **Foundational Layer for Digital Trust, Identity, and Governance** within the **Pi Network ecosystem** — seamlessly integrated with the **PiQuantum Intelligence Layer** for a quantum-secure, AI-powered infrastructure.
 
 ---
 
@@ -26,10 +26,10 @@
 
 ## 🏆 Achievements & Verification
 
-- **100/100 Security & Readiness Score** — Mainnet-ready and verified  
-- **PiOS Official License** — Approved for Pi Network ecosystem  
-- **Fully Integrated** — Connected with PiBridge, PiStorage, PiNet OS, and PiQuantum Nexus  
-- **Open Source** — Transparent, secure, and community-driven  
+- **100/100 Security & Readiness Score** — Fully audited, verified, and Core Review pending Mainnet inclusion  
+- **PiOS Official License** — Recognized for exclusive use within the Pi Network ecosystem  
+- **Ecosystem Integration** — Connected with PiBridge, PiStorage, PiNet OS, and PiQuantum Nexus  
+- **Open Source & Transparent** — Fully auditable, community-driven, and developer-friendly  
 
 ---
 
@@ -38,56 +38,57 @@
 [![ORCID iD](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0009-6663-902X)  
 **El Madani El Mkhitar** — [ORCID Profile](https://orcid.org/0009-0009-6663-902X)  
 
-Founder of **PiTrust Protocol** — [Mainnet Ready](https://apppitrustcddfc8244.pinet.com)  
-Committed to transparency, ethical development, and decentralized integrity.  
+Founder and Lead Architect of **PiTrust Protocol** — [Mainnet Ready](https://apppitrustcddfc8244.pinet.com)  
+Championing transparency, decentralized governance, and quantum-grade trust across the Pi Network.
 
-> *“Building the foundation of digital trust inside the Pi Network ecosystem — from Morocco to the world.”*
+> *“Building a global foundation for digital trust — from Morocco to the entire Pi community.”*
 
 ---
 
 ## 🧠 What is PiTrust?
 
-**PiTrust** is a decentralized Web3 trust infrastructure that provides digital identity verification, trust scoring, and secure interconnection between Pi Network applications.  
-Now, it forms the **core trust and governance layer** that unites the entire PiOS ecosystem.
+**PiTrust** is the **core decentralized trust infrastructure** for Web3 within Pi Network. It enables:  
+- Verifiable digital identity  
+- Dynamic trust scoring  
+- Secure interconnection across Pi applications  
 
 ### Core Features:
-- 🔐 Digital Trust & Reputation Engine  
-- 🌐 Interconnection Layer for Pi Apps  
-- 🧠 Decentralized Identity Management  
-- ⚙️ API & SDK for Developers  
-- 🤖 AI-Ready Interface for Future Integrations  
+- 🔐 **Digital Trust & Reputation Engine** — AI-ready, blockchain-anchored  
+- 🌐 **Interconnection Layer for Pi Apps** — Unified API & SDK for seamless integration  
+- 🧠 **Decentralized Identity Management** — Immutable, user-centric credentials  
+- ⚙️ **Developer Tools** — Full API, SDK, and integration samples  
+- 🤖 **AI-Ready Interface** — Preparation for Pi AI integration and reputation automation  
 
 ---
 
 ## 🚀 Current Status
 
-- ✅ **CodeQL Security Check:** 100/100  
-- ✅ **Infrastructure Verified:** Security Passed  
-- ✅ **License:** PiOS (Pi Network Exclusive)  
-- 🔵 **Core Team Review:** Pending Mainnet Inclusion  
+- ✅ **Security & Code Audit:** 100/100 (CodeQL & internal verification)  
+- ✅ **Infrastructure Verified:** Security & readiness confirmed  
+- ✅ **PiOS Licensed:** Exclusive ecosystem approval  
+- 🔵 **Core Team Review:** Pending for official Mainnet deployment  
 
 ---
 
 ## 🧭 Vision
 
-To establish a **complete decentralized ecosystem** powered by **trust, intelligence, and identity** — linking humans, data, and networks through the unified Pi infrastructure.
+To create a **comprehensive decentralized ecosystem** where **trust, intelligence, and identity** converge — empowering pioneers, developers, and the Pi community to interact safely and efficiently, guided by quantum-secure infrastructure.
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Frontend:** React / Next.js  
-- **Backend:** Node.js / Django REST API  
-- **Database:** PostgreSQL / MongoDB  
-- **Integration:** Pi SDK (Authentication & Payments)  
+- **Frontend:** React / Next.js — Mobile-first, responsive, and modular  
+- **Backend:** Node.js / Django REST API — Robust and scalable  
+- **Database:** PostgreSQL / MongoDB — Hybrid, high-availability design  
+- **Integration:** Pi SDK — Identity, authentication, and micropayments  
 
 ---
 
 ## 📜 License
 
-This project is licensed under the **Pi Open Source License (PiOS)**.  
-It is intended exclusively for use within the Pi Network ecosystem.  
-For full license details, see the [LICENSE](./LICENSE) file.
+This project is licensed under the **Pi Open Source License (PiOS)** — exclusive for the **Pi Network ecosystem**.  
+For full license details, see the [LICENSE](./LICENSE) file.  
 
 © 2025 EL MADANI EL MKHITAR
 
@@ -110,49 +111,46 @@ For full license details, see the [LICENSE](./LICENSE) file.
 
 ## 💡 Why It Matters
 
-With millions of pioneers using Pi Network applications, **trust and identity** are the backbone of security and collaboration.  
-PiTrust enables verified identity, transparent governance, and safe interactions — laying the groundwork for the decentralized digital economy of tomorrow.
+Trust and identity are the backbone of secure interactions in the Pi Network.  
+**PiTrust** ensures:  
+
+- Verified user identities  
+- Transparent and auditable governance  
+- Secure transactions and data exchanges  
+- Foundation for the decentralized digital economy  
 
 ---
 
 ## 🌐 Related Ecosystem Projects
 
-### 🔹 PiBridge — Smart Migration Utility  
-Secure, governance-driven migration of Pi Ecosystem assets between Pi Network and external blockchains.  
+### 🔹 PiBridge — Smart Migration Utility
+- Governance-driven migration of Pi assets across chains  
 - [Repository](https://github.com/madanimkhitar22-beep/PiBridge)  
-- [Live Demo](https://appbridge76b12db6.pinet.com)
+- [Live Demo](https://appbridge76b12db6.pinet.com)  
 
----
-
-### 🔹 PiStorage — Decentralized Cloud  
-Encrypted, decentralized cloud storage powered by PiTrust identity validation.  
+### 🔹 PiStorage — Decentralized Cloud
+- Quantum-secure, encrypted cloud storage integrated with PiTrust  
 - [Repository](https://github.com/madanimkhitar22-beep/PiStorage)  
-- [Live Demo](https://appstorage6712cabc.pinet.com)
+- [Live Demo](https://appstorage6712cabc.pinet.com)  
 
----
-
-### 🔹 PiNet OS — Distributed Layer  
-The connective operating system unifying PiTrust and PiBridge under PiOS governance, enabling quantum-grade interoperability.  
+### 🔹 PiNet OS — Distributed Layer
+- Connective OS unifying PiTrust & PiBridge  
 - [Repository](https://github.com/madanimkhitar22-beep/PiNet-OS)  
-- [Live Demo](https://apppinetosca3435e4.pinet.com)
+- [Live Demo](https://apppinetosca3435e4.pinet.com)  
 
----
-
-### 🔹 PiQuantum Nexus — Intelligence Integration Layer  
-The final neural bridge connecting AI, data flow, and decentralized decision-making across all PiTrust-powered systems.  
+### 🔹 PiQuantum Nexus — Intelligence Integration Layer
+- AI, data flow, and decentralized decision-making across PiTrust ecosystem  
 - [Repository](https://github.com/madanimkhitar22-beep/PiQuantum-Nexus)  
-- [Live Demo](https://apppiquantumnexu0794.pinet.com)
+- [Live Demo](https://apppiquantumnexu0794.pinet.com)  
 
 ---
 
 ## 🤝 Contribute & Connect
 
-Want to help improve PiTrust?
-
 - Read [CONTRIBUTING.md](./CONTRIBUTING.md)  
-- For security disclosures, see [SECURITY.md](./SECURITY.md)  
+- Report security issues: [SECURITY.md](./SECURITY.md)  
 - Contact: [madanimkhitar22@gmail.com](mailto:madanimkhitar22@gmail.com)  
-- Open an issue or start a discussion on GitHub  
+- Open issues or discussions on GitHub  
 
 ---
 
